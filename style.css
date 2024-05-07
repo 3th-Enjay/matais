@@ -21,6 +21,7 @@ header{
     display: flex ;
     flex-direction: row;
     height: 88px;
+    position: sticky;
     
   }  
  .header-details{
@@ -426,7 +427,7 @@ display: block;
   position: relative;
   text-align: center;
   margin:100px auto;
-  max-width: 500px;;
+  max-width: 500px;
 }
 .hr-lines::after{
   content: " ";
@@ -455,7 +456,7 @@ display: block;
   justify-content: center;
 }
 .portfolio-imgs {
-  padding: 5%;
+  padding: 1%;
   justify-content: center;
 
 }
@@ -518,6 +519,57 @@ color: black;
   text-align: center;
   font-size: larger; 
 }
-.section5{
+.sec5colored{
   display: flex;
+  justify-content: space-between;
+  color:#ffffff;
+  width: 100%;
+  background-color: rgb(60, 60, 60);
+  
+  margin: 1%;
+  border-radius: 15px;
+}
+.d-text{
+  padding:2%;
+  width: 50%;
+}
+.linetxt::before{
+  display: block;
+  content: " ";
+  height:2px;
+  width: 70px;
+  position:absolute;
+  top:50%;
+  left:1.5%;
+  background: #C9f31d;
+}
+.linetxt{
+display: block;
+position: relative;
+color: #C9f31d;
+text-align: center;
+max-width: 50%;
+
+}
+.sec5txt{
+  font-size:50px ;
+  border-bottom: 1px solid grey;
+  padding:2%;
+  margin-top: -2%;
+}
+.other-texts{
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  
+}
+.email-box5{
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.other-texts:hover{
+  border-bottom: #C9f31d 1px solid;
+}
+.email-box5:hover{
+  border-bottom: #C9f31d 1px solid;
 }
